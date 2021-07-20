@@ -53,7 +53,7 @@ steps:
 # Save test logs to Google Cloud Storage
 artifacts:
   objects:
-    location: gs://python-test/
+    location: gs://python-test-log/
     paths:
       - ${SHORT_SHA}_test_log.xml
 # [END cloudbuild_python_logs_yaml]
